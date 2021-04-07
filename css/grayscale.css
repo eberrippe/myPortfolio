@@ -2,6 +2,7 @@
  * Start Bootstrap - Grayscale v5.0.8 (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ * Modificated by Jan Paulsen
  */
 
 #mainNav {
@@ -86,14 +87,16 @@
   }
 }
 
+
+
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/bg-masthead.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: rgba(50,50,50,1.0);
+/*      linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -101,7 +104,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Calibri';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -142,7 +145,7 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Calibri';
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -278,6 +281,10 @@ body {
   letter-spacing: 0.0625em;
 }
 
+.ProfilePic {
+  border-radius: 50%;
+}
+
 a {
   color: #64a19d;
 }
@@ -302,3 +309,5 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+
